@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-06T13:22:34 IST" name="Suite" finished-at="2024-03-06T13:25:24 IST" duration-ms="170220">
+    <groups>
+    </groups>
+    <test started-at="2024-03-06T13:22:34 IST" name="Test1" finished-at="2024-03-06T13:25:24 IST" duration-ms="170220">
+      <class name="test_Book.BaseClass">
+        <test-method is-config="true" signature="setup_Browser(java.lang.String,java.lang.String)[pri:0, instance:test_Book.BaseClass@217ed35e]" started-at="2024-03-06T13:22:35 IST" name="setup_Browser" finished-at="2024-03-06T13:23:06 IST" duration-ms="30731" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.urbanladder.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup_Browser -->
+        <test-method signature="VerifyWebsite()[pri:1, instance:test_Book.BaseClass@217ed35e]" started-at="2024-03-06T13:23:06 IST" name="VerifyWebsite" finished-at="2024-03-06T13:23:26 IST" duration-ms="20475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyWebsite -->
+        <test-method signature="displayBookShelves()[pri:2, instance:test_Book.BaseClass@217ed35e]" started-at="2024-03-06T13:23:26 IST" name="displayBookShelves" finished-at="2024-03-06T13:24:15 IST" duration-ms="48438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayBookShelves -->
+        <test-method signature="ByAtHome()[pri:3, instance:test_Book.BaseClass@217ed35e]" started-at="2024-03-06T13:24:15 IST" name="ByAtHome" finished-at="2024-03-06T13:24:37 IST" duration-ms="22251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ByAtHome -->
+        <test-method signature="giftCard()[pri:4, instance:test_Book.BaseClass@217ed35e]" started-at="2024-03-06T13:24:38 IST" name="giftCard" finished-at="2024-03-06T13:24:59 IST" duration-ms="20931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCard -->
+        <test-method signature="giftCardformNegative()[pri:5, instance:test_Book.BaseClass@217ed35e]" started-at="2024-03-06T13:24:59 IST" name="giftCardformNegative" finished-at="2024-03-06T13:25:11 IST" duration-ms="12489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCardformNegative -->
+        <test-method signature="giftCardformPositive()[pri:6, instance:test_Book.BaseClass@217ed35e]" started-at="2024-03-06T13:25:12 IST" name="giftCardformPositive" finished-at="2024-03-06T13:25:23 IST" duration-ms="11134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- giftCardformPositive -->
+        <test-method is-config="true" signature="close_Browser()[pri:0, instance:test_Book.BaseClass@217ed35e]" started-at="2024-03-06T13:25:23 IST" name="close_Browser" finished-at="2024-03-06T13:25:24 IST" duration-ms="1177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_Browser -->
+      </class> <!-- test_Book.BaseClass -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
